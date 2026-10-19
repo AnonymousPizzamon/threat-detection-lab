@@ -1,0 +1,9 @@
+# technique coverage: id, tactic, status (planned | emulated | detected)
+techniques:
+  - {id: T1059.001, tactic: execution, status: emulated}
+  - {id: T1027, tactic: defense-evasion, status: planned}
+  - {id: T1136.001, tactic: persistence, status: planned}
+  - {id: T1098, tactic: privilege-escalation, status: planned}
+  - {id: T1110.001, tactic: credential-access, status: planned}
+  - {id: T1105, tactic: command-and-control, status: planned}
+  - {id: T1021.001, tactic: lateral-movement, status: planned}

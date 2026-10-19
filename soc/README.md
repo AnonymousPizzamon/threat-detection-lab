@@ -1,1 +1,0 @@
-﻿## SOC Detection Lab

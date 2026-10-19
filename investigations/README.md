@@ -1,0 +1,4 @@
+# Investigations
+
+| # | Investigation | Detection | Verdict |
+| --- | --- | --- | --- |
