@@ -1,0 +1,106 @@
+{
+  "name": "Threat Detection Lab Coverage",
+  "versions": {
+    "layer": "4.5",
+    "navigator": "5.1.0"
+  },
+  "domain": "enterprise-attack",
+  "description": "Threat Detection Lab coverage: 6 planned, 1 emulated, 0 detected",
+  "sorting": 0,
+  "layout": {
+    "layout": "side",
+    "showName": true,
+    "showID": true
+  },
+  "hideDisabled": false,
+  "techniques": [
+    {
+      "techniqueID": "T1059.001",
+      "score": 2,
+      "color": "#ffd966",
+      "comment": "Emulated (atomic run, telemetry confirmed)",
+      "enabled": true,
+      "showSubtechniques": false,
+      "tactic": "execution"
+    },
+    {
+      "techniqueID": "T1027",
+      "score": 1,
+      "color": "#d9d9d9",
+      "comment": "Planned",
+      "enabled": true,
+      "showSubtechniques": false,
+      "tactic": "defense-evasion"
+    },
+    {
+      "techniqueID": "T1136.001",
+      "score": 1,
+      "color": "#d9d9d9",
+      "comment": "Planned",
+      "enabled": true,
+      "showSubtechniques": false,
+      "tactic": "persistence"
+    },
+    {
+      "techniqueID": "T1098",
+      "score": 1,
+      "color": "#d9d9d9",
+      "comment": "Planned",
+      "enabled": true,
+      "showSubtechniques": false,
+      "tactic": "privilege-escalation"
+    },
+    {
+      "techniqueID": "T1110.001",
+      "score": 1,
+      "color": "#d9d9d9",
+      "comment": "Planned",
+      "enabled": true,
+      "showSubtechniques": false,
+      "tactic": "credential-access"
+    },
+    {
+      "techniqueID": "T1105",
+      "score": 1,
+      "color": "#d9d9d9",
+      "comment": "Planned",
+      "enabled": true,
+      "showSubtechniques": false,
+      "tactic": "command-and-control"
+    },
+    {
+      "techniqueID": "T1021.001",
+      "score": 1,
+      "color": "#d9d9d9",
+      "comment": "Planned",
+      "enabled": true,
+      "showSubtechniques": false,
+      "tactic": "lateral-movement"
+    }
+  ],
+  "gradient": {
+    "colors": [
+      "#ffffff",
+      "#6aa84f"
+    ],
+    "minValue": 0,
+    "maxValue": 3
+  },
+  "legendItems": [
+    {
+      "label": "Planned",
+      "color": "#d9d9d9"
+    },
+    {
+      "label": "Emulated (atomic run, telemetry confirmed)",
+      "color": "#ffd966"
+    },
+    {
+      "label": "Detected (rule validated by harness)",
+      "color": "#6aa84f"
+    }
+  ],
+  "showTacticRowBackground": true,
+  "tacticRowBackground": "#dddddd",
+  "selectTechniquesAcrossTactics": false
+}
